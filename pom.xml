@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.github.qiyueW</groupId>
+	<artifactId>jweb.i18n.test</artifactId>
+	<packaging>war</packaging>
+	<version>1</version>
+	<name>jweb.i18n.test Maven Webapp</name>
+	<url>https://github.com/qiyueW/jewbi18nTest</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.github.qiyueW/JWeb -->
+		<dependency>
+			<groupId>com.github.qiyueW</groupId>
+			<artifactId>jweb.i18n</artifactId>
+			<version>1</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<finalName>jewbi18nTest</finalName>
+	</build>
+</project>
